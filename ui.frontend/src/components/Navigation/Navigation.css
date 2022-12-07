@@ -1,0 +1,41 @@
+.Navigation__item {
+ list-style: none;
+  }
+  
+  .Navigation__item > a {
+   text-decoration: none !important;
+  }
+  
+  .Navigation__group {
+  background-color: yellow;
+  font-size: 20px !important;
+  
+  }
+  
+  
+  
+  @media screen and (max-width: 350px) {
+  .Navigation__group {
+    background-color: rgb(207, 141, 35);
+    }
+  
+    .Navigation__item > a {
+   text-decoration: underline !important;
+    }
+  
+  }
+  
+  @media screen and (min-width: 351px) and (max-width: 400px) {
+    .Navigation__group {
+      background-color: red;
+    }
+  
+  }
+  
+  @media screen and (min-width: 401px) and (max-width: 750px) {
+  .Navigation__group {
+  background-color: rgb(33, 137, 228);
+    }
+  
+  }
+

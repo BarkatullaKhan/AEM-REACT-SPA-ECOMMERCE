@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/AcceleratorSPA/clientlibs"/>
+    <filter root="/apps/AcceleratorSPA/components"/>
+    <filter root="/apps/AcceleratorSPA/i18n"/>
+    <filter root="/apps/msm/AcceleratorSPA_blueprint" mode="merge"/>
+</workspaceFilter>
